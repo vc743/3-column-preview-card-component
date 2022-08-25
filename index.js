@@ -1,14 +1,11 @@
 let body = document.body;
 let boxes = document.querySelectorAll(".grid-container .box");
-let toggleBtn = document.querySelector(".toggle-btn");
+let toggleBtn = document.getElementById("toggle-btn");
 let cardBtn = document.querySelectorAll("a");
-let icon = document.querySelector(".toggle-btn .fa");
 
-console.log(icon);
-
-toggleBtn.addEventListener("click", () => {
-    icon.classList.toggle("fa-sun");
-    icon.classList.toggle("fa-moon");
+toggleBtn.addEventListener("click", function(){
+    this.classList.toggle("bi-moon-fill");
+    this.classList.toggle("icon-darkmode");
 
     body.classList.toggle("dark-mode");
 

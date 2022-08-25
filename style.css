@@ -2,7 +2,7 @@
 
 body{
     background-color:  hsl(0, 0%, 95%);
-    min-height: 100vh;
+    min-height: 50vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -24,22 +24,17 @@ body{
     border-radius: 12px;
 }
 
-.toggle-btn{
-    padding: 10px 25px;
-    border: none;
+.icon{
     width: 50px;
     height: 50px;
-    border-radius: 50%;
-    background-color: #1B1A17;
     cursor: pointer;
     transition: all 0.4s ease;
-    font-family: 'Lexend Deca', sans-serif;
     margin-top: 20px;
     margin-left: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    font-size: 25px;
 }
 
 /*------Main Box Styles------*/
@@ -100,7 +95,7 @@ body{
     color: hsl(179, 100%, 13%);
 }
 
-/*Dark Mode*/
+/*------Dark Mode------*/
 .dark-mode{
     background-color: #1B1A17;
     transition: all 0.4s ease;
@@ -124,6 +119,10 @@ body{
 .box3 .btn-dark-mode{
     color: hsl(0, 0%, 95%);
     background-color: hsl(179, 100%, 13%);
+}
+
+.icon-darkmode{
+    color: white;
 }
 
 /*------Media Query------*/
