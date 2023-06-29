@@ -1,5 +1,5 @@
 let body = document.body;
-let boxes = document.querySelectorAll(".grid-container .box");
+let boxes = document.querySelectorAll(".box");
 let toggleBtn = document.getElementById("toggle-btn");
 let cardBtn = document.querySelectorAll("a");
 
